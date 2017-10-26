@@ -61,7 +61,7 @@ public class TipousuarioService implements EmptyServiceInterface, ViewServiceInt
     }
 
     /*
-    * http://127.0.0.1:8081/carrito-server/json?ob=usuario&op=get&id=1
+    * http://127.0.0.1:8081/carrito-server/json?ob=tipousuario&op=get&id=1
      */
     @Override
     public ReplyBean get() throws Exception {
@@ -98,7 +98,7 @@ public class TipousuarioService implements EmptyServiceInterface, ViewServiceInt
     }
 
     /*
-    * http://127.0.0.1:8081/carrito-server/json?ob=usuario&op=getpage&np=1&rpp=10
+    * http://127.0.0.1:8081/carrito-server/json?ob=tipousuario&op=getpage&np=1&rpp=10
      */
     @Override
     public ReplyBean getpage() throws Exception {
@@ -140,7 +140,7 @@ public class TipousuarioService implements EmptyServiceInterface, ViewServiceInt
     }
 
     /*
-    * http://127.0.0.1:8081/carrito-server/json?ob=usuario&op=getcount
+    * http://127.0.0.1:8081/carrito-server/json?ob=tipousuario&op=getcount
      */
     @Override
     public ReplyBean getcount() throws Exception {
@@ -178,7 +178,7 @@ public class TipousuarioService implements EmptyServiceInterface, ViewServiceInt
     }
 
     /*
-    * http://127.0.0.1:8081/carrito-server/json?ob=usuario&op=set (datos aparte)
+    * http://127.0.0.1:8081/carrito-server/json?ob=tipousuario&op=set (datos aparte)
      */
     @Override
     public ReplyBean set() throws Exception {
@@ -220,7 +220,7 @@ public class TipousuarioService implements EmptyServiceInterface, ViewServiceInt
     }
 
     /*
-    * http://127.0.0.1:8081/carrito-server/json?ob=usuario&op=remove&id=1
+    * http://127.0.0.1:8081/carrito-server/json?ob=tipousuario&op=remove&id=1
      */
     @Override
     public ReplyBean remove() throws Exception {
